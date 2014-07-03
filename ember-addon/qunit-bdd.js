@@ -19,7 +19,7 @@ EmberCLIQunitBDD.prototype.treeFor = function(name) {
   var treePath;
 
   if (name === 'vendor') {
-    treePath = path.join(__dirname, '..', 'lib');
+    treePath = path.join(__dirname, '..');
   }
 
   if (treePath && fs.existsSync(treePath)) {
@@ -30,7 +30,7 @@ EmberCLIQunitBDD.prototype.treeFor = function(name) {
 EmberCLIQunitBDD.prototype.included = function(app) {
   this.app = app;
   if(app.tests) {
-    this.app.import('vendor/qunit-bdd.js');
+    this.app.import('vendor/qunit-bdd/lib/qunit-bdd.js')
   }
 };
 
