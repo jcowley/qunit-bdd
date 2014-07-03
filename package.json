@@ -8,6 +8,7 @@
   },
   "files": [
     "lib/qunit-bdd.js",
+    "ember-addon/qunit-bdd.js",
     "LICENSE"
   ],
   "scripts": {
@@ -16,8 +17,12 @@
   },
   "keywords": [
     "qunit",
-    "bdd"
+    "bdd",
+    "ember-addon"
   ],
+  "ember-addon": {
+    "main": "ember-addon/qunit-bdd.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:square/qunit-bdd.git"
