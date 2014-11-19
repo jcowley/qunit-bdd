@@ -1,5 +1,7 @@
 ## qunit-bdd
 
+**This is a fork that makes this work as an ember-cli addon**
+
 BDD-style testing for QUnit.
 
 ```js
@@ -26,14 +28,7 @@ describe('keys', function() {
 
 ```
 # Install via NPM.
-$ npm install [--save-dev] qunit-bdd
-
-# Install via Bower.
-$ bower install [-D] qunit-bdd
-
-# Install from Git.
-$ git clone https://github.com/square/qunit-bdd.git
-$ cp qunit-bdd/lib/qunit-bdd.js my-project/vendor/qunit-bdd.js
+$ npm install --save-dev jakecraige/qunit-bdd#30526d4529e3b169b80af0b657eb155ec6ca5898
 ```
 
 ### Usage
