@@ -28,7 +28,7 @@ describe('keys', function() {
 
 ```
 # Install via NPM.
-$ npm install --save-dev jakecraige/qunit-bdd#30526d4529e3b169b80af0b657eb155ec6ca5898
+$ npm install --save-dev jakecraige/qunit-bdd#be5e51aa9802bcd982e35d00e0495abf3f5dee64
 ```
 
 ### Usage
