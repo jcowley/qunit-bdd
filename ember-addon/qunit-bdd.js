@@ -5,6 +5,8 @@ var path = require('path');
 module.exports = {
   name: 'qunit-bdd',
 
+  root: path.join(__dirname, '..'),
+
   treeForVendor: function(tree) {
     var treePath = path.join(__dirname, '..', 'lib')
 
