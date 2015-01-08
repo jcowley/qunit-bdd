@@ -1,6 +1,6 @@
 {
   "name": "qunit-bdd",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "BDD-style testing for QUnit.",
   "main": "lib/qunit-bdd.js",
   "directories": {
