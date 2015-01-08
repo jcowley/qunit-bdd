@@ -31,9 +31,6 @@
   "author": "Brian Donovan",
   "license": "Apache 2",
   "devDependencies": {
-    "karma": "^0.12.6",
-    "qunitjs": "~1.12.0",
-    "karma-qunit": "^0.1.1",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "qunitjs": "~1.12.0"
   }
 }
