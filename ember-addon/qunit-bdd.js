@@ -1,6 +1,8 @@
 'use strict';
 
 var path = require('path');
+var Funnel = require('broccoli-funnel');
+var mergeTrees = require('broccoli-merge-trees');
 
 module.exports = {
   name: 'qunit-bdd',
@@ -8,13 +10,13 @@ module.exports = {
   treeForVendor: function(tree) {
     var treePath = path.join(__dirname, '..', 'lib')
 
-    var qunitBddTree =  this.pickFiles(this.treeGenerator(treePath), {
+    var qunitBddTree = new Funnel(this.treeGenerator(treePath), {
       srcDir: '/',
       files: ['*.js'],
       destDir: '/qunit-bdd/lib'
     });
 
-    return this.mergeTrees([tree, qunitBddTree].filter(Boolean));
+    return mergeTrees([tree, qunitBddTree].filter(Boolean));
   },
 
   included: function(app) {

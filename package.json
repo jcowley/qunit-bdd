@@ -35,5 +35,9 @@
     "qunitjs": "~1.12.0",
     "karma-qunit": "^0.1.1",
     "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "dependencies": {
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1"
   }
 }
