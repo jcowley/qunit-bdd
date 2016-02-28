@@ -12,7 +12,7 @@ module.exports = {
 
     var qunitBddTree = new Funnel(this.treeGenerator(treePath), {
       srcDir: '/',
-      files: ['*.js'],
+      include: ['*.js'],
       destDir: '/qunit-bdd/lib'
     });
 
